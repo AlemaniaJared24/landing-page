@@ -32,6 +32,7 @@ header {
     height: auto;
     margin: 0 auto;
     padding: 50px 0;
+    size: 100em;
 }
 @media (max-width: 768px) {
     nav ul {
