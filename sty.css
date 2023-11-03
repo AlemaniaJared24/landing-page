@@ -1,0 +1,98 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url('gg.gif');
+    background-size: cover;
+    background-color: skyblue;
+    color: #fff;
+    padding: 10px 20px;
+
+}
+
+#product {
+    background-image:url('gg.gif');
+    background-size: cover;
+    padding: 50px 0;
+    margin: 0 auto;
+    align-content: center;
+    
+
+}
+.product-content{
+    max-width: 600px;
+    margin: 5px auto;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#bgif {
+    background-image: url('gg.gif');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.bgif-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.cta-button {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#about {
+    background-image: url('gg.gif');
+    background-size: cover;
+    background-color: #f0f0f0;
+    padding: 200px 0;
+    text-align: center;
+}
+#contact {
+    background-image: url('gg.gif');
+    background-size: cover;
+    background-color: #f0f0f0;
+    padding: 250px 0;
+    text-align: center;
+}
+
+#contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #217dbb;
+}
