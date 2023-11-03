@@ -26,7 +26,9 @@ header {
     margin: 5px auto;
 }
 img {
-
+    background-image: url("gg.gif");
+    background-size: cover;
+    max-width: 100%;
     max-width: 100%;
     height: auto;
 
