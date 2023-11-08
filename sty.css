@@ -35,13 +35,14 @@ header {
     size: 100em;
 }
 @media (max-width: 768px) {
-    nav ul {
-        text-align: center;
+    .feature {
+        flex-basis: calc(50% - 20px);
     }
+}
 
-    nav ul li {
-        display: block;
-        margin-bottom: 10px;
+@media (max-width: 480px) {
+    .feature {
+        flex-basis: 100%;
     }
 }
 nav ul {
